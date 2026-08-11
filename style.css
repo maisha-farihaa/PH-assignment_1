@@ -104,22 +104,9 @@
 .hd {
   color: #e87fcc;
   font-size: 8px;
-
 }
 
-.speaker-info h3 {
-  font-size: 12px;
-  margin: 0 0 8px;
-}
-
-.speaker-info p {
-  color: #b0aeae;
-  font-size: 8px;
-  margin: 0;
-}
-
-
-/* shuru */
+/* pricing */
 .btntext{
     color: #e87fcc;
 }
@@ -128,12 +115,6 @@
   padding: 60px;
   background-color: white;
 }
-
-.pricing h2 {
-  font-size: 48px;
-  margin-bottom: 15px;
-}
-
 
 .pricing-grid {
   display: flex;
@@ -160,10 +141,6 @@
   font-size: 13px;
 }
 
-.featured .plan-label {
-  color: #6da8ff;
-}
-
 .price-card h3 {
   font-size: 48px;
   margin: 10px 0;
@@ -172,10 +149,6 @@
 .per {
   color: #888;
   font-size: 14px;
-}
-
-.featured .per {
-  color: #aaa;
 }
 
 .price-card ul {
@@ -200,12 +173,11 @@
   padding: 14px;
 }
 
-
-/* ai part */
+/* faq */
 
 .faq {
   padding: 60px;
-  background-color: white;
+  background-color: #f3daec;
   text-align: center;
 }
 
@@ -221,7 +193,7 @@
 }
 
 .faq-item {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #b0aeae;
   padding: 15px 0;
 }
 
@@ -235,4 +207,7 @@
   color: #b0aeae;
   font-size: 14px;
   margin-top: 10px;
+}
+.ftcolor{
+    color: #e87fcc;
 }
