@@ -208,3 +208,31 @@
   background-color: white;
   text-align: center;
 }
+
+.faq h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.faq-list {
+  width: 700px;
+  margin: 30px auto 0;
+  text-align: left;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.faq-item p {
+  color: #b0aeae;
+  font-size: 14px;
+  margin-top: 10px;
+}
