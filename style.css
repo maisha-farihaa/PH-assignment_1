@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.smallfontscolor{
+    color: #b0aeae;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn{
+     background-color: #e87fcc;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #716f6f;
+}
+
+.register-btn {
+ 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+/* hero */
+
+.hero {
+  position: relative;
+}
+.hero-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.hero-btn{
+     color: white;
+  border: none;
+  padding: 15px 30px;
+}
+
+/* speaker */
+
+.speakers {
+  padding: 40px;
+  background-color: white;
+}
+
+.speakers h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.speaker-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 850px;
+  margin: auto;
+}
+
+.speaker-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.speaker-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.padding{
+  padding: 10px;
+}
+
+.hd {
+  color: #e87fcc;
+  font-size: 8px;
+
+}
+
+.speaker-info h3 {
+  font-size: 12px;
+  margin: 0 0 8px;
+}
+
+.speaker-info p {
+  color: #b0aeae;
+  font-size: 8px;
+  margin: 0;
+}
+
+
+/* shuru */
+.btntext{
+    color: #e87fcc;
+}
+.price {
+  text-align: center;
+  padding: 60px;
+  background-color: white;
+}
+
+.pricing h2 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+
+.pricing-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.price-card {
+  width: 340px;
+  padding: 30px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.extras {
+  background-color: #10192e;
+  color: white;
+}
+
+.plan-label {
+  color: #888;
+  font-size: 13px;
+}
+
+.featured .plan-label {
+  color: #6da8ff;
+}
+
+.price-card h3 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.per {
+  color: #888;
+  font-size: 14px;
+}
+
+.featured .per {
+  color: #aaa;
+}
+
+.price-card ul {
+  margin: 25px 0;
+}
+
+.price-card li {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.btn-st-ed{
+  width: 100%;
+  padding: 14px;
+  background-color: white;
+  border: 1px solid #e87fcc;
+  border-radius: 5px;
+}
+
+.price-btn {
+  width: 100%;
+  padding: 14px;
+}
